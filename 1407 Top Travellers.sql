@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+-- Write your MySQL query statement below
 select a.name, ifnull(sum(b.distance),0) as travelled_distance
 from Users a
 left join Rides b
